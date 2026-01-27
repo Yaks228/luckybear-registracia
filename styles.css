@@ -499,6 +499,31 @@ a:hover {
     text-align: center;
 }
 
+.vpn-info {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius-md);
+    text-align: center;
+    border: 1px solid var(--color-gray);
+}
+
+.vpn-info p {
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.9rem;
+    color: var(--color-gray);
+}
+
+.vpn-info .btn-outline {
+    border-color: var(--color-accent-light);
+    color: var(--color-accent-light);
+}
+
+.vpn-info .btn-outline:hover {
+    background: var(--color-accent-light);
+    color: var(--color-white);
+}
+
 .feature-item h4 {
     color: var(--color-accent-light);
     margin-bottom: var(--spacing-sm);
